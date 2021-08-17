@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Formulário com Tailwind CSS e Google Forms</title>
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-screen flex flex-col justify-center items-center">
+    <main class="max-w-7xl mx-auto px-4">
+      <h1
+        class="
+          inline
+          tracking-tight
+          text-3xl
+          font-extrabold
+          text-gray-900
+          sm:block
+        "
+      >
+        Faça parte da minha
+      </h1>
+      <h2
+        class="
+          inline
+          tracking-tight
+          text-3xl
+          font-extrabold
+          text-pink-500
+          sm:block
+        "
+      >
+        lista de amigos
+      </h2>
+
+      <form
+        action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfryDGZI3bolqXsIQJxM6Npsjep3emmdur2KAzYO0rZ_oeH5w/formResponse"
+        class="mt-8 sm:flex"
+      >
+        <label for="insta-friend" class="sr-only">Digite seu arroba</label>
+        <input
+          type="text"
+          name="entry.27324490"
+          id="insta-friend"
+          class="
+            w-full
+            border border-gray-300
+            rounded-md
+            px-5
+            py-3
+            focus:outline-none focus:border-pink-500
+          "
+          placeholder="Digite o seu @"
+          required
+        />
+        <div class="mt-4 sm:mt-0 sm:ml-2.5 sm:flex-shrink-0">
+          <button
+            type="submit"
+            class="
+              flex
+              justify-center
+              items-center
+              w-full
+              px-5
+              py-3
+              bg-pink-500
+              rounded-md
+              text-white
+              duration-200
+              hover:bg-pink-600
+              focus:outline-none
+              focus:ring-2
+              focus:ring-offset-2
+              focus:ring-pink-500
+            "
+          >
+            Solicitar
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
