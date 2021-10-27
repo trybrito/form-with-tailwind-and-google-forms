@@ -12,7 +12,7 @@
 
 <hr>
 
-### README versions
+## README versions
 
 <div>
   <a href="https://github.com/ThiagoBrito-Dev/form-with-tailwind-and-google-forms/blob/main/README.md">
