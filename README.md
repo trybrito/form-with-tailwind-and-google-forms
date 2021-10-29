@@ -15,9 +15,9 @@
 ## README versions
 
 <div>
-  <a href="https://github.com/ThiagoBrito-Dev/form-with-tailwind-and-google-forms/blob/main/README.md">
+  <a href="https://github.com/trybrito/form-with-tailwind-and-google-forms/blob/main/README.md">
     Portuguese (pt-br)</a>
   |   
-  <a href="https://github.com/ThiagoBrito-Dev/form-with-tailwind-and-google-forms/blob/main/README-en.md">
+  <a href="https://github.com/trybrito/form-with-tailwind-and-google-forms/blob/main/README-en.md">
     English (en-us)</a>
 </div>
